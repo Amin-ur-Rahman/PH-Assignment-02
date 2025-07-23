@@ -38,18 +38,18 @@
 
     .base-font-black {
         font-family: "Inter", sans-serif;
-        font-size: clamp(1rem, 1vw + 0.5rem, 1.5rem);
+        font-size: clamp(22px, 1.5dvw, 25px);
     }
 
     .resp-h1 {
-        font-size: clamp(2rem, 4.5dvw + 1rem, 4rem);
+        font-size: clamp(22px, 1.5dvw, 25px);
     }
 
     .resp-h2 {
-        font-size: clamp(1.75rem, 3dvw + 1rem, 3.125rem);
+        font-size: clamp(28px, 3.3dvw, 50px);
     }
 
     .resp-h3 {
-        font-size: clamp(1.5rem, 2.5dvw + 1rem, 2.5rem);
+        font-size: clamp(25, 2.6dvw, 40px);
     }
 }
