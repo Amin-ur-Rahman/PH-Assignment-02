@@ -4,13 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.lineicons.com/5.0/lineicons.css" />
+
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="styles/style.css">
 
 </head>
 <body>
-    <div class="main-container">
+    <header>
 
+        <nav class="py-6 lg:py-8 flex justify-between items-center w-[90dvw] md:w-[80dvw] mx-auto">
+            <img src="B12A02-Responsive-Flowers/assets/logo.png" alt="website logo">
+            <ul class="inter flex gap-12">
+                <li class="font-bold hidden md:block">Home</li>
+                <li class="text-[rgba(0,0,0,0.5)] hidden md:block">Shop</li>
+                <li class="text-[rgba(0,0,0,0.5)] hidden md:block">About us</li>
+                <li><i class="lni lni-cart-2"></i> Cart($96)</li>
+            </ul>
+        </nav>
+
+        <section id="banner"
+                 class="md:flex md:my-[8dvw] flex flex-col-reverse md:flex-row md:w-[80dvw] mx-auto">
+           <div id="banner-text-block"
+                class=" w-[90dvw] md:w-[80dvw] mx-auto md:flex-1">
+               <h1 class="noto-serif font-bold text-[clamp(2rem,4.5dvw,4rem)]">
+                   ALWAYS <span class="text-[#E95A08]">FRESH FLOWERS</span>
+               </h1>
+               <p class="inter text-[rgba(0,0,0,0.5)] base-font">
+                   Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. 
+               </p>
+           </div>
+           <img src="B12A02-Responsive-Flowers/assets/hero-flower.png" 
+                alt="a bunch of flowers"
+                class="block w-full md:flex-1">
+        </section>
+
+    </header>
+
+    <div id="main-container" 
+         class="w-[80dvw] mx-auto">
+
+
+        
     </div>
 </body>
 </html>
