@@ -46,7 +46,7 @@
     }
 
     .resp-h2 {
-        font-size: clamp(35px, 3.2dvw, 50px);
+        font-size: clamp(30px, 3.2dvw, 50px);
     }
 
     .resp-h3 {
