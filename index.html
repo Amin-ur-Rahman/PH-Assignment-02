@@ -76,7 +76,7 @@
                     <h3 class="base-font-black">
                         Lily Blossom</h3>     
                     <p class="base-font-black font-bold">20 <span class="text-orange-500">USD</span></p>    
-                    <button type="button" class="btn w-full mt-5">ADD TO CART</button>
+                    <button type="button"  class="cart-button btn w-full mt-5">ADD TO CART</button>
                 </div>
                 <div class="flex flex-col items-center justify-center">
                     <img src="B12A02-Responsive-Flowers/assets/sample-flower-image.png" alt="lily flower"
@@ -84,7 +84,7 @@
                     <h3 class="base-font-black">
                         Lily Orchid</h3>     
                     <p class="base-font-black font-bold">20 <span class="text-orange-500">USD</span></p>    
-                    <button type="button" class="btn w-full mt-5">ADD TO CART</button>
+                    <button type="button"  class="cart-button btn w-full mt-5">ADD TO CART</button>
                 </div>
                 <div class="flex flex-col items-center justify-center">
                     <img src="B12A02-Responsive-Flowers/assets/sample-flower-image.png" alt="lily flower"
@@ -92,7 +92,7 @@
                     <h3 class="base-font-black">
                         Glaze Lily</h3>     
                     <p class="base-font-black font-bold">20 <span class="text-orange-500">USD</span></p>    
-                    <button type="button" class="btn w-full mt-5">ADD TO CART</button>
+                    <button type="button"  class="cart-button btn w-full mt-5">ADD TO CART</button>
                 </div>
                 <div class="flex flex-col items-center justify-center">
                     <img src="B12A02-Responsive-Flowers/assets/sample-flower-image.png" alt="lily flower"
@@ -100,7 +100,7 @@
                     <h3 class="base-font-black">
                         Snap Dragon</h3>     
                     <p class="base-font-black font-bold">20 <span class="text-orange-500">USD</span></p>    
-                    <button type="button" class="btn w-full mt-5">ADD TO CART</button>
+                    <button type="button"  class="cart-button btn w-full mt-5">ADD TO CART</button>
                 </div>
                 <div class="flex flex-col items-center justify-center">
                     <img src="B12A02-Responsive-Flowers/assets/sample-flower-image.png" alt="lily flower"
@@ -108,7 +108,7 @@
                     <h3 class="base-font-black">
                         Wind Wheel</h3>     
                     <p class="base-font-black font-bold">20 <span class="text-orange-500">USD</span></p>    
-                    <button type="button" class="btn w-full mt-5">ADD TO CART</button>
+                    <button type="button"  class="cart-button btn w-full mt-5">ADD TO CART</button>
                 </div>
                 <div class="flex flex-col items-center justify-center">
                     <img src="B12A02-Responsive-Flowers/assets/sample-flower-image.png" alt="lily flower"
@@ -116,7 +116,7 @@
                     <h3 class="base-font-black">
                         Zayeun Peach</h3>     
                     <p class="base-font-black font-bold">20 <span class="text-orange-500">USD</span></p>    
-                    <button type="button" class="btn w-full mt-5">ADD TO CART</button>
+                    <button type="button"  class="cart-button btn w-full mt-5">ADD TO CART</button>
                 </div>
                 <div class="flex flex-col items-center justify-center">
                     <img src="B12A02-Responsive-Flowers/assets/sample-flower-image.png" alt="lily flower"
@@ -124,7 +124,7 @@
                     <h3 class="base-font-black">
                         Sumeru Rose</h3>     
                     <p class="base-font-black font-bold">20 <span class="text-orange-500">USD</span></p>    
-                    <button type="button" class="btn w-full mt-5">ADD TO CART</button>
+                    <button type="button"  class="cart-button btn w-full mt-5">ADD TO CART</button>
                 </div>
                 <div class="flex flex-col items-center justify-center">
                     <img src="B12A02-Responsive-Flowers/assets/sample-flower-image.png" alt="lily flower"
@@ -132,7 +132,7 @@
                     <h3 class="base-font-black">
                         Water Lily</h3>     
                     <p class="base-font-black font-bold">20 <span class="text-orange-500">USD</span></p>    
-                    <button type="button" class="btn w-full mt-5">ADD TO CART</button>
+                    <button type="button"  class="cart-button btn w-full mt-5">ADD TO CART</button>
                 </div>
             </div>
          </section>
@@ -145,9 +145,9 @@
                 <img src="B12A02-Responsive-Flowers/assets/flower-store.png" alt="flower shop"
                      class="block w-max overflow-hidden ">      
                 <img src="B12A02-Responsive-Flowers/assets/trusted-badge-round.png" alt="certification logo"
-                          class="hidden 
+                          class="hidden badge
                           xl:absolute xl:block xl:top-0 xl:right-0 xl:w-48 xl:h-48 xl:translate-x-[40%]
-                           xl:translate-y-[-40%] drop-shadow-badge">     
+                           xl:translate-y-[-40%] drop-shadow-badge ">     
                 
             </div>      
             <ul id="plant-lovers-text-block"
@@ -286,5 +286,22 @@
 
         </section>
     </footer>
+
+
+
+    <script>
+    const buttons = document.querySelectorAll('.cart-button');
+    // by this I am getting an array of all buttons with the className 'cart-button'
+    console.log(buttons);
+    //using forEach loop for every button with the className 'cart-button'
+    
+    buttons.forEach((button) => {
+        button.addEventListener('click', () =>{
+            alert("Flower Added To Cart!")
+        })
+    })
+</script>
+
 </body>
+   
 </html>

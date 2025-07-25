@@ -57,4 +57,18 @@
         filter: drop-shadow(4px 0 3px rgba(20, 20, 100, 0.5));
     }
 
+    .badge {
+        animation: rotating-badge 6s linear infinite;
+    }
+
+    @keyframes rotating-badge {
+        from {
+            transform: rotate(0deg);
+        }
+
+        to {
+            transform: rotate(360deg);
+        }
+    }
+
 }
