@@ -32,17 +32,17 @@
 
     .base-font {
         font-family: "Inter", sans-serif;
-        font-size: clamp(22px, 1.5dvw, 25px);
+        font-size: clamp(18px, 1.5dvw, 24px);
         color: rgba(0, 0, 0, 0.5);
     }
 
     .base-font-black {
         font-family: "Inter", sans-serif;
-        font-size: clamp(22px, 1.5dvw, 25px);
+        font-size: clamp(18px, 1.5dvw, 24px);
     }
 
     .resp-h1 {
-        font-size: clamp(40px, 4.2dvw, 65px);
+        font-size: clamp(35px, 4.2dvw, 65px);
     }
 
     .resp-h2 {

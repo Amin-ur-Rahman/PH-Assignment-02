@@ -12,26 +12,34 @@
 
 </head>
 <body>
-    <header class="lg:py-8 py-6 lg:mb-[6dvw] mb-16">
+    <header class="lg:py-8 py-6 lg:mb-[6dvw] mb-16 mx-auto
+                    lg:w-[90dvw] 
+                    md:w-[95dvw]
+                    xl:w-[80dvw]">
 
-        <nav class=" flex justify-between items-center w-[90dvw] mx-auto  mb-5
-                     lg:mb-10 lg:w-[80dvw] 
-                     md:w-[95dvw]">
+        <nav class="flex justify-between items-center w-[90dvw]  mx-auto  mb-8
+                    lg:mb-10 lg:w-[90dvw]
+                    md:w-[95dvw]
+                    xl:w-[80dvw] xl:mb-[6dvw]">
             <img src="B12A02-Responsive-Flowers/assets/logo.png" alt="website logo">
             <ul class="inter flex gap-12">
-                <li class="font-bold hidden md:block"><a href="#">Home</a></li>
-                <li class="text-[rgba(0,0,0,0.5)] hidden md:block"><a href="#">Shop</a></li>
-                <li class="text-[rgba(0,0,0,0.5)] hidden md:block"><a href="#">About us</a></li>
+                <li class="font-bold hidden lg:block"><a href="#">Home</a></li>
+                <li class="text-[rgba(0,0,0,0.5)] hidden lg:block"><a href="#">Shop</a></li>
+                <li class="text-[rgba(0,0,0,0.5)] hidden lg:block"><a href="#">About us</a></li>
                 <li><a href="#"><i class="lni lni-cart-2"></i> Cart ($96)</a></li>
             </ul>
         </nav>
 
         <section id="banner"
-                 class="md:flex flex flex-col-reverse gap-8 mx-auto  
-                 md:flex-row md:w-[95dvw]
-                 lg:w-[80dvw] ">
+                 class="flex flex-col-reverse gap-8 mx-auto w-full md:text-center lg:text-left
+                 lg:flex-row lg:w-[90dvw]  
+                 md:w-[95dvw]
+                 xl:w-[80dvw]"
+                 >
+                 
            <div id="banner-text-block"
-                class=" w-[90dvw] md:w-[80dvw] mx-auto ">
+                class=" w-[90dvw] mx-auto 
+                        lg:mt-20 xl:mt-[5dvw]">
                <h1 class="noto-serif font-bold resp-h1">
                    ALWAYS <span class="text-orange-500">FRESH FLOWERS</span>
                </h1>
@@ -41,20 +49,20 @@
            </div>
            <img src="B12A02-Responsive-Flowers/assets/hero-flower.png" 
                 alt="a bunch of flowers"
-                class="block w-full mx-auto object-cover md:overflow-hidden">
+                class="block w-full mx-auto object-cover">
         </section>
 
     </header>
 
     <main id="main-container" 
-         class="w-[90dvw] lg:w-[80dvw] mx-auto">
+         class="w-[90dvw] md:w-[95dvw] lg:w-[90dvw] xl:w-[80dvw] mx-auto">
 
          <section id="plants-section"
                   class="lg:mb-[6dvw] mb-16">
             <div id="card-text-block"
                  class="text-center md:px-32">
                 <h2 class="noto-serif resp-h2 font-bold my-4"><span class="text-orange-500">Our</span> Plants</h2>
-                <p class="inter base-font ">
+                <p class="inter base-font  ">
                     Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.
                 </p>
             </div>
@@ -144,9 +152,9 @@
                 class="xl:flex-1 ">
                 <h2 class="noto-serif resp-h2 font-bold my-5 
                             md:text-center xl:text-left">Flower & Plants Lover</h2>
-                <li class="base-font list-disc ml-8 mb-5">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
-                <li class="base-font list-disc ml-8 mb-5">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
-                <li class="base-font list-disc ml-8 mb-5">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
+                <li class="base-font list-disc ml-8 mb-5 ">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
+                <li class="base-font list-disc ml-8 mb-5 ">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
+                <li class="base-font list-disc ml-8 mb-5 ">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
             </ul>
 
          </section>
@@ -237,9 +245,10 @@
         </section>
 
         <section id="footer"
-                 class="w-[90dvw] lg:w-[80dvw] mx-auto lg:mb-[6dvw] mb-16
-                        xl:flex-row xl:flex xl:gap-28 xl:items-start
-                        md:flex md:flex-col md:items-center md:gap-14
+                 class="w-[90dvw]
+                        lg:w-[90dvw] mx-auto lg:mb-[6dvw] mb-16
+                        xl:flex-row xl:flex xl:gap-28 xl:items-start xl:w-[80dvw]
+                        md:w-[95dvw] md:flex md:flex-col md:items-center md:gap-14
                         ">
                  <div class="md:max-w-96 md:text-center md:flex md:flex-col md:items-center
                             xl:block xl:text-left">
