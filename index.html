@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="shortcut icon" href="B12A02-Responsive-Flowers/favicon-flower-orange.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.lineicons.com/5.0/lineicons.css" />
 
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
@@ -13,7 +14,9 @@
 <body>
     <header class="lg:py-8 py-6 lg:mb-[6dvw] mb-16">
 
-        <nav class=" flex justify-between items-center w-[90dvw] lg:w-[80dvw] mb-5 lg:mb-10 mx-auto">
+        <nav class=" flex justify-between items-center w-[90dvw] mx-auto  mb-5
+                     lg:mb-10 lg:w-[80dvw] 
+                     md:w-[95dvw]">
             <img src="B12A02-Responsive-Flowers/assets/logo.png" alt="website logo">
             <ul class="inter flex gap-12">
                 <li class="font-bold hidden md:block"><a href="#">Home</a></li>
@@ -24,8 +27,8 @@
         </nav>
 
         <section id="banner"
-                 class="md:flex flex flex-col-reverse gap-8 mx-auto md:w-[90dvw] 
-                 md:flex-row 
+                 class="md:flex flex flex-col-reverse gap-8 mx-auto  
+                 md:flex-row md:w-[95dvw]
                  lg:w-[80dvw] ">
            <div id="banner-text-block"
                 class=" w-[90dvw] md:w-[80dvw] mx-auto ">
@@ -125,20 +128,22 @@
          </section>
 
          <section id="plant-lovers-section"
-                  class="lg:my-[12dvw] my-16 flex flex-col items-center gap-6 lg:gap-12 xl:gap-[5rem]
-                      xl:flex-row  "  >
-            <div class="xl:relative max-w-full xl:flex-1 ">
+                  class=" my-16 flex flex-col items-center gap-6 lg:gap-12 lg:my-[12dvw]
+                          xl:flex-row xl:gap-[6rem] "  >
+            <div class=" max-w-full
+                         xl:relative xl:flex-1 ">
                 <img src="B12A02-Responsive-Flowers/assets/flower-store.png" alt="flower shop"
                      class="block w-max overflow-hidden ">      
-                <img src="B12A02-Responsive-Flowers/assets/trusted-badge.png" alt="certification logo"
+                <img src="B12A02-Responsive-Flowers/assets/trusted-badge-round.png" alt="certification logo"
                           class="hidden 
-                          xl:absolute xl:block xl:top-0 xl:right-0 xl:w-3xs xl:h-64 translate-x-[40%]
-                           translate-y-[-40%] shadow-3d">     
+                          xl:absolute xl:block xl:top-0 xl:right-0 xl:w-48 xl:h-48 xl:translate-x-[40%]
+                           xl:translate-y-[-40%] drop-shadow-badge">     
                 
             </div>      
             <ul id="plant-lovers-text-block"
                 class="xl:flex-1 ">
-                <h2 class="noto-serif resp-h2 font-bold my-5">Flower & Plants Lover</h2>
+                <h2 class="noto-serif resp-h2 font-bold my-5 
+                            md:text-center xl:text-left">Flower & Plants Lover</h2>
                 <li class="base-font list-disc ml-8 mb-5">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
                 <li class="base-font list-disc ml-8 mb-5">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
                 <li class="base-font list-disc ml-8 mb-5">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
